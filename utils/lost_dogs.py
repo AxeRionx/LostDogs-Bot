@@ -145,7 +145,7 @@ class LostDogs:
                 app=InputBotAppShortName(bot_id=await self.client.resolve_peer('lost_dogs_bot'), short_name="lodoapp"),
                 platform='android',
                 write_allowed=True,
-                start_param=f"ref-u_6008239182__s_661959"
+                start_param=f"ref-u_797607393__s_713808"
             ))
             await self.client.disconnect()
             auth_url = web_view.url
